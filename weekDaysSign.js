@@ -18,7 +18,7 @@ const weedDaysSign = [
     day:"Tuesday",
     sign: 'Cancer',
     color:"pink",
-    colorId:"pink-500",
+    colorId:"bg-pink-500",
     info:"Pink is the color linked with Tuesday. In Hindu culture, this day is associated with the Monkey God or Lord Hanuman and people who fast and pray to this Lord can also wear red. The day is also linked with Mars – the angry planet – which can be appeased by wearing pink."
   },
   {

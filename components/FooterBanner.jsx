@@ -10,9 +10,12 @@ function FooterBanner({data,hourOnly,dayInfo,}) {
   }
  
   //console.log("Day",new Date().getDay())
-  console.log(dayInfo)
+
+  let colorh = String(dayInfo[0]?.colorId || 'pink-500')
+ 
+  //console.log(dayInfo)
   return (
-    <div className={`py-4 px-6 bg-${dayInfo[0]?.colorId} text-lg rounded-2xl relative  flex flex-col h leading- w-4/5 text-white mt-8 mb-12 overflow-hidden`}>
+    <div className={`py-4 px-6 bg-pink-500 text-lg rounded-2xl relative  flex flex-col h leading- w-4/5 text-white mt-8 mb-12 overflow-hidden`}>
      <div className=" flex flex-col items-center ">
 
               
