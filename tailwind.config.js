@@ -9,7 +9,7 @@ module.exports = {
         "ww":"300px",
         "bigScreenclock":"500px",
 
-        "www":"500px",
+        "www":"480px",
         "bigScreenZodiac":"800px"
 
       },
@@ -17,7 +17,7 @@ module.exports = {
         "hh":"300px",
         "bigScreenclock":"500px",
 
-        "hhh":"500px",
+        "hhh":"480px",
         "bigScreenZodiac":"800px"
       },
       fontFamily:{

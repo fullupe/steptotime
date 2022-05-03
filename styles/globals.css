@@ -33,6 +33,7 @@
 
   .clock1{
     @apply 
+  
     w-www 
     md:w-bigScreenZodiac 
     h-hhh

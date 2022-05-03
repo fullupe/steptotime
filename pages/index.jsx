@@ -59,7 +59,7 @@ useEffect(()=>{
 
   return (
   
-    <div className="flex justify-content items-center flex-col h-screen">
+    <div className="flex justify-content items-center flex-col h-screen " >
                <video
                 className="w-full h-screen object-cover  opacity-90"
                 src=" ../bgvideo.mp4" 
@@ -73,6 +73,7 @@ useEffect(()=>{
       <div className="top-0 right-0 left-0 bottom-0 absolute h-screen ">
 
     <div className="
+     
      
     opacity-90
     pt-8
