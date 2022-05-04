@@ -24,7 +24,7 @@ function FooterBanner({ data, hourOnly, dayInfo }) {
   //console.log(dayInfo)
   return (
     <div
-      className={`py-4 px-6 bg-${dayInfo[0]?.color}-500 text-lg rounded-2xl relative  flex flex-col h leading- w-4/5 text-white mt-8 mb-12 overflow-hidden`}
+      className={`py-4 px-6 bg-pink-500 !important text-lg rounded-2xl relative  flex flex-col h leading- w-4/5 text-white mt-8 mb-12 overflow-hidden`}
     >
       <div className=" flex flex-col items-center ">
         <div className=" flex flex-col items-center ">
