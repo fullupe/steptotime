@@ -41,47 +41,66 @@ function FooterBanner({ data, hourOnly, dayInfo }) {
         </div>
       </div>
 
-      <div className="flex flex-col justify-center  md:flex-row space-y-4 md:space-y-0 md:justify-evenly">
-        <div className="flex flex-col md:px-12 md:border-r-2">
+      <div className="flex flex-col   md:flex-row space-y-4 md:space-y-0 md:justify-evenly">
+        <div className="flex justify-around items-center flex-codl md:px-12 md:border-r-2">
+
+          <div className="flex flex-col space-y-2">
           <p className="text-xs text-gray-100  font-cinzel">
-            Element :{' '}
-            <span className="text-2xl text-gray-900 capitalize ml-2">
+            Element :{' '}  
+          </p>
+          <span className="text-xs text-orange-300 capitalize ml-0">
               {data[0]?.element}
             </span>
-          </p>
+          </div>
+
+        <div className="flex flex-col space-y-2" >
           <p className="text-xs text-gray-100 font-cinzel ">
-            Colors :{' '}
-            <span className="text-2xl text-gray-900 capitalize ml-4">
+            Colors :{' '} 
+          </p>
+
+          <span className="text-xs text-orange-300 capitalize ml-0">
               {data[0]?.colors}
             </span>
-          </p>
-          <p className="text-xs text-gray-100  font-cinzel">
-            Planet :{' '}
-            <span className="text-2xl text-gray-900 capitalize ml-4">
-              {data[0]?.Planet}
-            </span>
-          </p>
         </div>
 
-        <div className="flex flex-col md:border-l-2 md:px-12">
+
+        <div className="flex flex-col space-y-2">
+          <p className="text-xs text-gray-100  font-cinzel">
+            Planet :{' '}
+          </p>
+
+            <span className="text-xs text-orange-300 capitalize ml-0">
+              {data[0]?.Planet}
+            </span>
+        </div>
+
+
+        </div>
+
+        <div className="flex flex-col md:border-l-2 md:px-12 justify-center items-center space-y-2">
           <p className="text-xs text-gray-100 font-cinzel">
-            Today :{' '}
-            <span className="text-2xl text-gray-900 capitalize ml-6">
+            {/* Today :{' '} */}
+            <span className="text-2xl text-gray-300 capitalize ml-6">
               {dayInfo[0]?.day}
             </span>
           </p>
+
+          <div className="flex">
           <p className="text-xs text-gray-100 font-cinzel">
-            Colors :{' '}
-            <span className="text-2xl text-gray-900 capitalize ml-6">
+            {/* Colors :{' '} */}
+            <span className="text-2xl text-orange-200 capitalize ml-0">
               {dayInfo[0]?.color}
             </span>
           </p>
+
           <p className="text-xs text-gray-100 font-cinzel ">
-            Sign :{' '}
-            <span className="text-2xl text-gray-900 capitalize ml-8">
+            {/* Sign :{' '} */}
+            <span className="text-2xl text-orange-200 capitalize ml-8">
               {dayInfo[0]?.sign}
             </span>
           </p>
+          </div>
+
         </div>
       </div>
     </div>
